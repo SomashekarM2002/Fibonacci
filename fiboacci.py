@@ -7,7 +7,7 @@ def fibonacci_series(n):
     return fib_series
 
 # Example usage
-terms = int(input("Enter the number of terms: "))
+terms= int(input("Enter the number of terms: "))
 if terms <= 0:
     print("Please enter a positive integer.")
 else:
